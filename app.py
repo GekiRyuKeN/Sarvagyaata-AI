@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 
 # Custom theme with gradient background and feature colors
 def set_custom_theme():
@@ -106,8 +105,8 @@ for i, (feature, color, link) in enumerate(features):
         
         # Button for each feature
         if st.button(f"Try Now", key=f"feature_{i}"):
-            st.write(f"You clicked on {feature}!")
-            webbrowser.open_new_tab(link)  # Open link in new tab
+            js_code = f'window.open("{link}", "_blank")'
+            st.components.v1.html(f'<script>{js_code}</script>', height=0)
 
 # About Us Section
 st.markdown('<div class="about-us">', unsafe_allow_html=True)
