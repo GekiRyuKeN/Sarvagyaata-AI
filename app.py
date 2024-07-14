@@ -67,7 +67,6 @@ st.markdown('<h2 style="color: #E0F2FE;">Your All-in-One Intelligent Business So
 # Features with colors and links
 features = [
     ("Personalized Content Chatbot", "#FDE68A", "https://sarvagyaataai-personalized-chatbot.streamlit.app/"),
-    ("Chat with any PDF", "#A7F3D0", "https://sarvagyaataai-chat-with-pdf.streamlit.app/"),
     ("Personalized Computer Vision", "#BFDBFE", "https://sarvagyaata-ai-object-detection.streamlit.app/"),
     ("Movie Recommendation System", "#FCA5A5", "https://sarvagyaata-ai-movie-recommendation.streamlit.app/"),
     ("Business Analyst Dashboard", "#C7D2FE", "https://sarvagyaata-ai-bussiness-analyst.streamlit.app/"),
