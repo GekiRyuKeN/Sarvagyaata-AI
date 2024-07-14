@@ -53,13 +53,13 @@ def set_custom_theme():
     """, unsafe_allow_html=True)
 
 # Set page config
-st.set_page_config(page_title="Smartarakshak", page_icon="🛡", layout="wide")
+st.set_page_config(page_title="Sarvagyaata", page_icon="🛡", layout="wide")
 
 # Apply custom theme
 set_custom_theme()
 
 # Title
-st.markdown('<p class="big-font">Welcome to Sarvagyaata</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Welcome to Sarvagyaata AI</p>', unsafe_allow_html=True)
 
 # Subheader
 st.markdown('<h2 style="color: #E0F2FE;">Your All-in-One Intelligent Business Solution</h2>', unsafe_allow_html=True)
@@ -139,4 +139,4 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
-st.markdown('<p style="color: #E0F2FE;">© 2024 Smartarakshak. All rights reserved.</p>', unsafe_allow_html=True)
+st.markdown('<p style="color: #E0F2FE;">© 2024 Sarvagyaata. All rights reserved.</p>', unsafe_allow_html=True)
